@@ -198,3 +198,4 @@ function defrag () {
 }
 END
 
+reboot
