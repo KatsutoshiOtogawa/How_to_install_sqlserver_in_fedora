@@ -7,6 +7,21 @@ this project has Vagrantfile.
 vagrant up
 ```
 sqlserver-fedora environment is being launch.
+
+# install sample Database AdventureWorks2019 and AdventureWorksDW2019
+
+```
+# change user and read .bash_profile.
+sudo su
+source ~/.bash_profile
+
+# execute bash function.
+enable_sampleschema
+
+# if you uninstall schema, execute below function
+disable_sampleschema
+```
+
 # if you want to create vagrant box from vagrant file.
 
 ```
